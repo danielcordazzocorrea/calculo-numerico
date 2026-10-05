@@ -1,0 +1,31 @@
+ATIVIDADE PRÁTICA III
+Raízes de equações
+
+Daniel Cordazzo e Rodrigo Valle
+Cálculo Numérico • Prof.ª Raquel J. Lobosco
+
+Objetivo
+Comparar os métodos da bisseção, de Newton e da secante na aproximação de raízes de quatro funções.
+
+Configuração
+Tolerância: 10⁻⁶ • Máximo: 100 iterações
+Critério de convergência: |f(x)| < 10⁻⁶
+
+Notebook no Google Colab
+
+1. Resultados numéricos
+Os três métodos convergiram para as quatro funções com os valores iniciais sugeridos.
+
+2. Animações dos métodos
+
+Bisseção — f₁(x) = x² − 2
+O intervalo que contém a raiz é reduzido pela metade a cada iteração.
+
+Newton — f₂(x) = x³ − x − 2
+A interseção da reta tangente com o eixo horizontal define a próxima aproximação.
+
+Secante — f₃(x) = exp(−x) − x
+A reta que passa pelas duas aproximações anteriores define o próximo ponto no eixo horizontal.
+
+3. Conclusão
+Newton precisou de menos iterações nos quatro casos analisados. A bisseção manteve a raiz em um intervalo com troca de sinal, enquanto a secante dispensou o cálculo da derivada. O ponto inicial influencia o comportamento dos métodos: para f₄(x) = x³ − 2x + 2, Newton converge a partir de −2, mas entra no ciclo 0 → 1 → 0 quando iniciado em zero.
