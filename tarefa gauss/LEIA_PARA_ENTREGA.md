@@ -11,6 +11,6 @@ O método parte de `(0, 0, 0)`, usa a norma infinito da diferença entre iteraç
 ## Estado da entrega
 
 1. As fotos reais `foto1.jpeg` e `foto2.jpeg` estão nas duas primeiras páginas do PDF. Há uma nota de correção abaixo da segunda foto. Se a foto for refeita, gerar novamente o PDF sem essa nota.
-2. O notebook foi publicado no GitHub em `main/tarefa gauss/Gauss_Seidel_Lista.ipynb`. O PDF contém o link para abri-lo no Colab.
+2. O notebook foi publicado no GitHub em `main/tarefa gauss/Gauss_Seidel_Lista.ipynb`. O PDF contém tanto o link direto do GitHub quanto o link para abri-lo no Colab.
 
 O PDF já contém as fotos manuscritas e uma nota com a correção da iteração 3.

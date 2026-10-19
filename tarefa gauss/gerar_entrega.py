@@ -14,6 +14,10 @@ LINK_CODIGO = (
     "https://colab.research.google.com/github/danielcordazzocorrea/"
     "calculo-numerico/blob/main/tarefa%20gauss/Gauss_Seidel_Lista.ipynb"
 )
+LINK_GITHUB = (
+    "https://github.com/danielcordazzocorrea/calculo-numerico/"
+    "blob/main/tarefa%20gauss/Gauss_Seidel_Lista.ipynb"
+)
 
 
 def notebook():
@@ -225,6 +229,8 @@ def pdf():
             "",
             "## Link para o código no Colab",
             LINK_CODIGO,
+            "## Link direto para o código no GitHub",
+            LINK_GITHUB,
         ], "O arquivo Gauss_Seidel_Lista.ipynb contém a versão completa para Colab.", tamanho=10)
 
         pagina_texto(doc, "Tabela de iterações", [
